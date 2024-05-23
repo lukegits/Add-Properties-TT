@@ -16,40 +16,26 @@ Cypress
 Installation Steps
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/yourusername/Add-Properties-TT.git
 cd turbotenant-cypress-scripts
 Install the required dependencies:
 
-bash
-Copy code
+
 npm install
 Open Cypress:
-
-bash
-Copy code
 npx cypress open
 Usage
 Running Tests
 Run all tests in headless mode:
 
-bash
-Copy code
 npx cypress run
 Run tests in interactive mode:
 
-bash
-Copy code
 npx cypress open
 Running Specific Test Suites or Cases
 To run a specific test suite or case, use the following command:
 
-bash
-Copy code
 npx cypress run --spec "cypress/integration/your_test_file.spec.js"
-Writing Tests
-Cypress test files are located in the cypress/integration directory. To create a new test:
 
 Fork the repository.
 Create a new feature branch.

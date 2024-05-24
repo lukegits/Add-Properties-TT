@@ -16,7 +16,7 @@ Cypress
 Installation Steps
 Clone the repository:
 
-```git clone  https://github.com/yourusername/Add-Properties-TT.git```
+```git clone  https://github.com/lukegits/Add-Properties-TT.git```
 
 Install the required dependencies:
 

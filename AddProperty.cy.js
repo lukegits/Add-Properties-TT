@@ -200,7 +200,7 @@ describe('login as pre-existing user and create new property', () => {
       // Snack bar is shown on screen with the string "Failed to add property" and property is not added to the table on screen.
       //cy.get('.message-success').contains('Failed to add property')
     cy.get('[placeholder="Title"]').clear()
-
+    cy.wait(1000)
       // 8. User enters invalid string OVER 100 characters in the the ""Description"" string field and clicks Submit button
     cy.get('.header > :nth-child(1)').click()
     cy.get('[placeholder="Description"]').type('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore ut labore et dolore.').should('have.value', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore ut labore et dolore.')
@@ -209,7 +209,7 @@ describe('login as pre-existing user and create new property', () => {
       // Snack bar is shown on screen with the string "Failed to add property" and property is not added to the table on screen.
       //cy.get('.message-success').contains('Failed to add property')
     cy.get('[placeholder="Description"]').clear()
-
+    cy.wait(1000)
       // 9. User enters invalid string OVER 100 characters in the the ""Rent"" (INTEGER) string field and clicks Submit button
     cy.get('.header > :nth-child(1)').click()
     cy.get('[placeholder="Rent"]').type('1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890').should('have.value', '1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890')
@@ -217,7 +217,7 @@ describe('login as pre-existing user and create new property', () => {
 
       // Snack bar is shown on screen with the string "Failed to add property" and property is not added to the table on screen.
       //cy.get('.message-success').contains('Failed to add property')
-
+    cy.wait(1000)
       // VERIFY USER CAN DELETE A PROPERTY
       // 1. User is logged into the Add Property page
       // 2. (Precondition) User has properties created on Add property page and clicks Delete button

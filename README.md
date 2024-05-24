@@ -5,9 +5,8 @@ Welcome to the TurboTenant Cypress Automation Scripts repository! This repositor
 
 
 Features
-Automated Functional Testing: Covers user registration, login, property management, and lead management
-Easy Integration: Easily integrates with CI/CD pipelines for continuous testing.
-Detailed Reporting: Provides detailed test reports and screenshots for failed tests.
+Automated Functional Testing: Covers user registration, login, property management, and lead management.
+
 Setup and Installation
 Prerequisites
 Node.js (v12 or higher)

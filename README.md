@@ -23,13 +23,13 @@ Open Cypress:
 
 ```npx cypress open```
 
-Cypress will open and install if needed, select E2E Testing button and then select Start "E2E Testing in Chrome" button.
+Cypress will open and install if needed, select E2E Testing button, then click the continue button, select Start "E2E Testing in Chrome" button and click the "Create new Spec" button.
 
 Download automated script file from:
 
 ```https://github.com/lukegits/Add-Properties-TT/blob/main/AddProperty.cy.js```
 
-Place file in e2e directory in cypress files.
+Place file in e2e directory in Cypress files.
 
 Navigate to Chrome browser session running Cypress:
 
@@ -40,7 +40,6 @@ To run tests click on file named:
 To run all tests in headless mode:
 
 ```npx cypress run```
-
 
 *** Please note "cy.get('.message-success').contains('Failed to add property')" are optional tests that do not need to be run unless the development team indicates they are a required feature. 
 These tests were created to test the "Failed to add property" snack bar if there is only one string input in the Add Properties and Add Leads pages. ***

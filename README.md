@@ -5,7 +5,7 @@ Welcome to the TurboTenant Cypress Automation Scripts repository! This repositor
 
 
 Features
-Automated Functional Testing: Covers user registration, login, property management, and lead management.
+Automated Functional Testing: Covers login and add property application function.
 
 Setup and Installation
 Prerequisites

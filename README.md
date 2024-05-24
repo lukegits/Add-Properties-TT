@@ -15,11 +15,6 @@ Cypress
 
 Installation Steps
 
-Navigate to working directory for project
-Clone the repository:
-
-```git clone  https://github.com/lukegits/Add-Properties-TT.git```
-
 Install the required dependencies:
 
 ```npm install```
@@ -28,25 +23,24 @@ Open Cypress:
 
 ```npx cypress open```
 
-Cypress will open, select E2E Testing and then select Start E2E Testing in Chrome button.
+Cypress will open and install if needed, select E2E Testing button and then select Start "E2E Testing in Chrome" button.
 
-To run tests click on file 
+Download automated script file from:
+
+```https://github.com/lukegits/Add-Properties-TT/blob/main/AddProperty.cy.js```
+
+Place file in e2e directory in cypress files.
+
+Navigate to Chrome browser session running Cypress:
+
+To run tests click on file named:
 
 ```Add-Properties-TT```
 
-Run all tests in headless mode:
+To run all tests in headless mode:
 
 ```npx cypress run```
 
-Run tests in interactive mode:
-
-```npx cypress open```
-
-Running Specific Test Suites or Cases
-
-To run a specific test suite or case, use the following command:
-
-```npx cypress run --spec "cypress/integration/your_test_file.spec.js"```
 
 *** Please note "cy.get('.message-success').contains('Failed to add property')" are optional tests that do not need to be run unless the development team indicates they are a required feature. 
 These tests were created to test the "Failed to add property" snack bar if there is only one string input in the Add Properties and Add Leads pages. ***

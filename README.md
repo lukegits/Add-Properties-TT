@@ -14,6 +14,8 @@ npm (Node package manager)
 Cypress
 
 Installation Steps
+
+Navigate to working directory for project
 Clone the repository:
 
 ```git clone  https://github.com/lukegits/Add-Properties-TT.git```
@@ -25,6 +27,12 @@ Install the required dependencies:
 Open Cypress:
 
 ```npx cypress open```
+
+Cypress will open, select E2E Testing and then select Start E2E Testing in Chrome button.
+
+To run tests click on file 
+
+```Add-Properties-TT```
 
 Run all tests in headless mode:
 

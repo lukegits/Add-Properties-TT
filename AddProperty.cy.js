@@ -192,6 +192,7 @@ describe('login as pre-existing user and create new property', () => {
       // 7. User enters invalid string OVER 100 characters in the the ""Title"" string field and clicks Submit button
 
       // Add property button clicked
+    cy.wait(1000
     cy.get('.header > :nth-child(1)').click()
     cy.get('[placeholder="Title"]').type('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore ut labore et dolore.').should('have.value', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore ut labore et dolore.')
     cy.get('.addForm > :nth-child(4)').click()
